@@ -1,4 +1,5 @@
 import "./App.css";
+import AnteFunkcija2 from "./components/AnteFunction";
 import AnteFunkcija from "./components/AnteFunction";
 import AntonijoObjekt from "./components/AntonijoObject";
 import LucijaFunkcija from "./components/LucijaFunction";
@@ -18,6 +19,7 @@ function App() {
       <LucijaFunkcija />
       <AntonijoObjekt />
       <PavaoObjekt />
+      <AnteFunkcija2 korisnik={korisnici[0]} />
     </div>
   );
 }
