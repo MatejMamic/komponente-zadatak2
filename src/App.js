@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AnteFunkcija from "./components/AnteFunction";
+import AntonijoObjekt from "./components/AntonijoObject";
+import LucijaFunkcija from "./components/LucijaFunction";
+import PavaoObjekt from "./components/PavaoObject";
 
+export const korisnici = [
+  { ime: "Ante", godine: 30 },
+  { ime: "Antonijo", godine: 45 },
+  { ime: "Lucija", godine: 24 },
+  { ime: "Pavao", godine: 27 },
+];
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Korisnici</h1>
+      <AnteFunkcija />
+      <LucijaFunkcija />
+      <AntonijoObjekt />
+      <PavaoObjekt />
     </div>
   );
 }
