@@ -1,7 +1,7 @@
 import React from "react";
 import { korisnici } from "../App";
 
-function AnteFunkcija2() {
+function AnteFunkcija() {
   const korisnik = korisnici.find((item) => item.ime === "Ante");
   const { ime, godine } = korisnik;
   return (
@@ -11,4 +11,4 @@ function AnteFunkcija2() {
     </>
   );
 }
-export default AnteFunkcija2;
+export default AnteFunkcija;

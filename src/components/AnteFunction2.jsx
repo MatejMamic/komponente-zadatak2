@@ -1,6 +1,6 @@
 import React from "react";
 
-function AnteFunkcija() {
+function AnteFunkcija2() {
   const { ime, godine } = korisnik;
   return (
     <>
@@ -9,4 +9,4 @@ function AnteFunkcija() {
     </>
   );
 }
-export default AnteFunkcija;
+export default AnteFunkcija2;
