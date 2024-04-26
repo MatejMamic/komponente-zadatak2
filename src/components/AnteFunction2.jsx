@@ -1,5 +1,5 @@
 import React from "react";
-
+import PropTypes from "prop-types";
 function AnteFunkcija2() {
   const { ime, godine } = korisnik;
   return (
@@ -9,4 +9,8 @@ function AnteFunkcija2() {
     </>
   );
 }
+AnteFunkcija2.proptypes = {
+  ime: PropTypes.string,
+  godine: PropTypes.number,
+};
 export default AnteFunkcija2;
